@@ -1,0 +1,84 @@
+body {
+    background-image: url('../assets/fondo2.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: white;
+    width: 70%;
+    min-height: 70%; 
+    border-radius: 20px;
+    margin: 0 auto; 
+    padding: 20px; 
+    margin-top: 1%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.nombre {
+    font-size: 16px;
+    color: #333; 
+    text-align: center; 
+}
+
+.buttons {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.buttons a {
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 15px; 
+    background-color: #ce96f8; 
+}
+
+.buttons img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+}
+
+.titulo {
+    display: block;
+    margin: 0 auto; 
+}
+
+.text-section {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: justify; 
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+
+.objetivos {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px 0; 
+    gap: 20px; 
+}
+
+.objetivos div {
+    background-color: #ce96f8; 
+    border-radius: 15px; 
+    padding: 20px; 
+    width: 30%; 
+    text-align: center; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white; 
+}
+
